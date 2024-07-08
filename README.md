@@ -11,11 +11,11 @@ import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugg
 ## Make UI
 
 ``` JavaScript
-import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/make-ui.js';
+import makeUi from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/make-ui.js';
 ```
 
 ## Merge Values
 
 ``` JavaScript
-import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/merge-values.js';
+import mergeValues from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/merge-values.js';
 ```
