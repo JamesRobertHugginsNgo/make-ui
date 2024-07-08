@@ -1,4 +1,4 @@
-import makeUi from './make-ui.js';
+import makeUi, { uiMakers } from './make-ui.js';
 import mergeValues from './merge-values.js';
 
-export { makeUi, mergeValues };
+export { makeUi, mergeValues, uiMakers };
