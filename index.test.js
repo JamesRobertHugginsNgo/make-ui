@@ -1,7 +1,6 @@
 import { setStyles } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-html@2.0.0/index.js';
 
-import { makeUi, mergeValues } from './index.js';
-
+import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0-alpha/index.js';
 const uiMakers = {};
 
 uiMakers['greeting'] = (definition, options = {}) => {
