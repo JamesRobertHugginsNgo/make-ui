@@ -1,21 +1,21 @@
 # Make UI
 
-**Version:** 1.0.0-Alpha
+**Version:** 1.0.0
 
 ## Index
 
 ``` JavaScript
-import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0-alpha/index.js';
+import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/index.js';
 ```
 
 ## Make UI
 
 ``` JavaScript
-import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0-alpha/make-ui.js';
+import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/make-ui.js';
 ```
 
 ## Merge Values
 
 ``` JavaScript
-import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0-alpha/merge-values.js';
+import { makeUi, mergeValues } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.0.0/merge-values.js';
 ```
