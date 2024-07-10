@@ -1,4 +1,4 @@
-import { makeHtml } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-html@2.0.0/index.js';
+import { makeHtml } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-html@2.1.0/index.js';
 
 import mergeValues from './merge-values.js';
 
