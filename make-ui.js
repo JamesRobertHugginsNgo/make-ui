@@ -15,6 +15,7 @@ export default function makeUi(definition, options = {}) {
 		}
 
 		const { children, callback, ...htmlDefinition } = definition;
+		const { namespace } = htmlDefinition;
 
 		let result = {};
 
@@ -26,13 +27,13 @@ export default function makeUi(definition, options = {}) {
 				}
 
 				if (Array.isArray(child)) {
-					const { element: childElement, ...childResult } = make({ children: child });
+					const { element: childElement, ...childResult } = make({ namespace, children: child });
 					result = mergeValuesOptions(result, childResult);
 					return childElement;
 				}
 
 				if (child.constructor && child.constructor === objectConstructor) {
-					const { element: childElement, ...childResult } = make(child);
+					const { element: childElement, ...childResult } = make({ namespace, ...child });
 					result = mergeValuesOptions(result, childResult);
 					return childElement;
 				}
