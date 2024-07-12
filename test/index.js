@@ -1,5 +1,5 @@
-// import { makeUi, mergeValues, uiMakers } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@1.1.1/index.js';
-import { makeUi, mergeValues, uiMakers } from '../src/index.js';
+import { makeUi, mergeValues, uiMakers } from 'https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/make-ui@2.0.0-alpha/index.js';
+// import { makeUi, mergeValues, uiMakers } from '../src/index.js';
 
 import { setStyles } from '../src/external-dependencies/make-html.js';
 
