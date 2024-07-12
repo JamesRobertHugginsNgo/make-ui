@@ -1,10 +1,3 @@
-/**
- * Merges 2 values, including nested objects and custom merging.
- * @param {any} value1 First value.
- * @param {any} value2 Second value.
- * @param {[function]} mergeFunctions A list of merge functions.
- * @returns {any}
- */
 export default function mergeValues(value1, value2, mergeFunctions) {
 	const objectConstructor = ({}).constructor;
 
